@@ -4,6 +4,7 @@
       <router-link to="/" class="logo">Mini Shop</router-link>
       <div class="nav-links">
         <router-link to="/">Products</router-link>
+        <router-link to="/favourites">Favourites</router-link>
         <router-link to="/cart" class="cart-link">
           Cart ({{ cart.totalItems }})
         </router-link>
